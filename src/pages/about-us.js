@@ -22,7 +22,7 @@ export default class AboutPage extends Component {
         <section
         style={{
             marginBottom : '2rem',
-            paddingTop : '100px',
+            paddingTop : '99px',
             }}
          >
       
