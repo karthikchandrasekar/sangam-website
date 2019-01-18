@@ -206,10 +206,7 @@ export default class AboutPage extends Component {
             >
               <div><img src={Emerging} /></div>
               <figcaption>
-                  <p>Sangam AIC is India's first and only dedicated
-                    CleanTech incubator, run by Sangam Ventures in 
-                    partnership with the Niti Aayog's Atal Innovation 
-                    Mission scheme.</p>
+                  <p>This startup acceleration program focuses on working hands-on and in the field with start-ups to achieve key milestones towards product-market fit </p>
                     <a href="https://www.aic-sangam.org/eiap2" target="blank" style={{
           padding : '0 1rem 0 0',
         }}><img src={Website} alt="Linkedin" height="20" width="20"/></a>
@@ -230,10 +227,7 @@ export default class AboutPage extends Component {
             >
               <div><img src={LexStart} /></div>
               <figcaption>
-                  <p>Sangam AIC is India's first and only dedicated
-                    CleanTech incubator, run by Sangam Ventures in 
-                    partnership with the Niti Aayog's Atal Innovation 
-                    Mission scheme.</p>
+                  <p>LexStart is a platform that provides legal and compliance services exclusively to start ups. </p>
                     <a href="https://www.lexstart.com/homepage" target="blank" style={{
           padding : '0 1rem 0 0',
         }}><img src={Website} alt="Linkedin" height="20" width="20"/></a>

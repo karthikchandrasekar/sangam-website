@@ -5,6 +5,7 @@ import SEO from '../components/seo'
 import Container from '../components/Container/container'
 import LocIcon from '../images/location.png'
 import MobHero from '../images/mob-landing.jpg'
+import SangamLogo from '../images/sangam-logo.png'
 
 
 export default class IndexPage extends Component {
@@ -25,12 +26,13 @@ export default class IndexPage extends Component {
       </div>
       
       <div className="hero-text"> 
-        Sangam Ventures is a seed and early stage 
+        <img src={SangamLogo} alt="sangam venture" />
+        <p>Sangam Ventures is a seed and early stage 
         venture fund that invests to improve access 
         to sustainable energy and resource productivity 
         solutions for the underserved in India that can 
         lead to inclusive development and creation of
-        communities that are resilient to climate change.
+        communities that are resilient to climate change.</p>
       </div>
 
     </div>

@@ -3,6 +3,7 @@
         justify-content : flex-start;
         display : flex;
         align-items: center;
+        display: none;
 }
 
 .company-branding > a > img {
