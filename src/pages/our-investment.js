@@ -20,6 +20,9 @@ import CarbonMaster from '../images/logo-carbon-masters.jpg'
 import Solshare from '../images/logo-solshare.jpg'
 import DelectricSystems from '../images/logo-delectric-systems.jpg'
 import Khethworks from '../images/logo-khethworks.jpg'
+import Linkedin from '../images/linkedin.png'
+import Twitter from '../images/twitter.png'
+import Website from '../images/website.png'
 
 
 
@@ -133,9 +136,13 @@ export default class InvestmentPage extends Component {
          backup power for cooling at 83% lower 
          cost/kWh of backup vs. diesel or 25% of 
          cost of Lead Acid Batteries</p>
-     <Link>Website</Link>  
-     <Link>Linked</Link>  
-     <Link>twitter</Link>  
+         <a href="http://www.inficold.com/" target="blank" style={{
+          padding : '0 1rem 0 0',
+        }}><img src={Website} alt="Linkedin" height="20" width="20"/></a>
+                    <a href="https://www.linkedin.com/company/inficold/" target="blank" style={{
+          padding : '0 1rem 0 0',
+        }}><img src={Linkedin} alt="Linkedin" height="20" width="20"/></a>
+        <a href=" https://twitter.com/Inficold_Inc" target="blank"><img src={Twitter} alt="Twitter" height="15" width="20" /></a>  
      </div>
 
      <div class="portfolio-1"style={
@@ -147,9 +154,13 @@ export default class InvestmentPage extends Component {
      }>
      <img src={Promethean} />
      <p>Energy efficiency is a 3x better investment for increasing overall energy availability that energy generation </p>
-     <Link>Website</Link>  
-     <Link>Linked</Link>  
-     <Link>twitter</Link>  
+     <a href=" http://www.prometheanenergy.com/" target="blank" style={{
+          padding : '0 1rem 0 0',
+        }}><img src={Website} alt="Linkedin" height="20" width="20"/></a>
+                    <a href=" https://www.linkedin.com/company/promethean-energy/" target="blank" style={{
+          padding : '0 1rem 0 0',
+        }}><img src={Linkedin} alt="Linkedin" height="20" width="20"/></a>
+        <a href="https://twitter.com/promethean_WHR" target="blank"><img src={Twitter} alt="Twitter" height="15" width="20" /></a> 
      </div>
 
      </div>
@@ -165,9 +176,13 @@ export default class InvestmentPage extends Component {
      }>
      <img src={CarbonMaster} />
      <p>Carbon Masters has developed a circular business model for bottling & sale of biogas for kitchens, automobiles & agro-industries reducing harmful Methane & CO2 emissions</p>
-     <Link>Website</Link>  
-     <Link>Linked</Link>  
-     <Link>twitter</Link>  
+     <a href="http://carbonlites.com/" target="blank" style={{
+          padding : '0 1rem 0 0',
+        }}><img src={Website} alt="Linkedin" height="20" width="20"/></a>
+                    <a href="https://www.linkedin.com/company/carbon-masters/about/" target="blank" style={{
+          padding : '0 1rem 0 0',
+        }}><img src={Linkedin} alt="Linkedin" height="20" width="20"/></a>
+        <a href="https://twitter.com/carbonlites" target="blank"><img src={Twitter} alt="Twitter" height="15" width="20" /></a>
      </div>
 
      <div class="portfolio-1"
@@ -180,9 +195,13 @@ export default class InvestmentPage extends Component {
      }>
      <img src={Solshare} />
      <p>SolShare is leading the Energiewende by developing services backbone for the future of utilities</p>
-     <Link>Website</Link>  
-     <Link>Linked</Link>  
-     <Link>twitter</Link>  
+     <a href="https://www.me-solshare.com/" target="blank" style={{
+          padding : '0 1rem 0 0',
+        }}><img src={Website} alt="Linkedin" height="20" width="20"/></a>
+                    <a href="https://www.linkedin.com/company/me-solshare/" target="blank" style={{
+          padding : '0 1rem 0 0',
+        }}><img src={Linkedin} alt="Linkedin" height="20" width="20"/></a>
+        <a href="https://twitter.com/MESOL_share" target="blank"><img src={Twitter} alt="Twitter" height="15" width="20" /></a> 
      </div>
 
      </div>
@@ -198,9 +217,13 @@ export default class InvestmentPage extends Component {
      }>
      <img src={DelectricSystems} />
      <p>Delectrik Systems is developing very low cost, long duration sustainable energy storage system based on a mature Vanadium Redox Flow Battery chemistry</p>
-     <Link>Website</Link>  
-     <Link>Linked</Link>  
-     <Link>twitter</Link>  
+     <a href="" target="blank" style={{
+          padding : '0 1rem 0 0',
+        }}><img src={Website} alt="Linkedin" height="20" width="20"/></a>
+                    <a href="https://www.linkedin.com/company/delectrik/about/" target="blank" style={{
+          padding : '0 1rem 0 0',
+        }}><img src={Linkedin} alt="Linkedin" height="20" width="20"/></a>
+        <a href="https://twitter.com/DelectrikInfo" target="blank"><img src={Twitter} alt="Twitter" height="15" width="20" /></a>
      </div>
 
      <div class="portfolio-1" style={
@@ -212,9 +235,13 @@ export default class InvestmentPage extends Component {
      }>
      <img src={Khethworks} />
      <p>Khethwork’s highly efficient solar pump design is optimised to give farmers the flow required for surface irrigation with less than 300 watts of power and payback in 2 years</p>
-     <Link>Website</Link>  
-     <Link>Linked</Link>  
-     <Link>twitter</Link>  
+     <a href="http://khethworks.com/" target="blank" style={{
+          padding : '0 1rem 0 0',
+        }}><img src={Website} alt="Linkedin" height="20" width="20"/></a>
+                    <a href="https://www.linkedin.com/company/khethworks/about/" target="blank" style={{
+          padding : '0 1rem 0 0',
+        }}><img src={Linkedin} alt="Linkedin" height="20" width="20"/></a>
+        <a href="https://twitter.com/khethworks" target="blank"><img src={Twitter} alt="Twitter" height="15" width="20" /></a>  
      </div>
 
      </div>

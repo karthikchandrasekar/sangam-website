@@ -3,6 +3,8 @@ import { Link } from 'gatsby'
 import Container from '../Container/container'
 import BrandLogo from '../../images/logo.png'
 import './header.css'
+import Linkedin from '../../images/linkedin.png'
+import Twitter from '../../images/twitter.png'
 
 
 const NavItem = ['About us','Our Investment','Resources','Linkedin','Twitter']
@@ -22,8 +24,8 @@ const Header = () => (
          <li><Link to= '/about-us' >{NavItem[0]}</Link></li>
          <li><Link to= '/our-investment' >{NavItem[1]}</Link></li>
          {/* <li><Link to= '/resources' >{NavItem[2]}</Link></li> */}
-         <li><Link to= '/linkedin' >{NavItem[3]}</Link></li>
-         <li><Link to= '/twitter' >{NavItem[4]}</Link></li>
+         <li><a href="https://www.linkedin.com/showcase/sangam-aic/" target="blank" ><img src={Linkedin} alt="Linkedin" height="20" width="20"/></a></li>
+         <li><a href="https://twitter.com/AicSangam" target="blank" ><img src={Twitter} alt="Twitter" height="15" width="20" /></a></li>
          </ul>
     
          </nav>

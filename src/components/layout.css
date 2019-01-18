@@ -642,6 +642,8 @@ pre tt:after {
         height : 86vh;
         background-image: url(../images/landing.jpg);
         width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
 }
 
 .hero-text{
@@ -739,6 +741,8 @@ section{
   .hero-image{
    
     background-image: url(../images/mob-landing.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
    
 }
 

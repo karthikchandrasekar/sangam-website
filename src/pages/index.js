@@ -6,6 +6,7 @@ import Container from '../components/Container/container'
 import LocIcon from '../images/location.png'
 import MobHero from '../images/mob-landing.jpg'
 
+
 export default class IndexPage extends Component {
 
 
@@ -54,7 +55,9 @@ export default class IndexPage extends Component {
       </div> 
      
       
-      <p className="title"><strong>Gurugram</strong></p>
+      <p className="title" ><img src={LocIcon} alt="Location" height="25" width="20" style={{
+              marginRight: '.5rem',
+        }}/><strong>Gurugram</strong></p>
       
       <p>Plot#146, 5th Floor, CLC Towers,
         Sector 44, Gurugram,
@@ -68,7 +71,9 @@ export default class IndexPage extends Component {
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.984191966707!2d77.60894551482195!3d12.972862790855084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1681259725b3%3A0x964a757ee00d9d2f!2sAxilor+Transit!5e0!3m2!1sen!2sin!4v1547030384680" >
       </iframe>
       </div> 
-      <p className="title"><strong>Bangalore</strong></p>
+      <p className="title"><img src={LocIcon} alt="Location" height="25" width="20" style={{
+              marginRight: '.5rem',
+        }}/><strong>Bangalore</strong></p>
       <p>Axilor Transit, 3rd Floor,
        Commissariat Road, Ashok Nagar
        Bangalore 560025</p>

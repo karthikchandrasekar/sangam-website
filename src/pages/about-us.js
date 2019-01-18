@@ -10,7 +10,10 @@ import {Link} from 'gatsby'
 import LexStart from '../images/Lexstart.png'
 import Sangam from '../images/sangam.png'
 import Emerging from '../images/EMERGING-INDIA-ACCEL.png'
-import Container from '../components/Container/container';
+import Container from '../components/Container/container'
+import Linkedin from '../images/linkedin.png'
+import Twitter from '../images/twitter.png'
+import Website from '../images/website.png'
 
 
 export default class AboutPage extends Component {
@@ -68,8 +71,10 @@ export default class AboutPage extends Component {
         new model to provide early stage support for climate change 
         pioneers. He spends a lot of his time with the portfolio 
         & within the clean technology eco-system in India & globally.</p>
-        <Link><i>Linkedin</i></Link>
-        <Link><i>Twitter</i></Link>
+        <a href="https://www.linkedin.com/in/karthikchandrasekar" target="blank" style={{
+          padding : '0 1rem 0 0',
+        }}><img src={Linkedin} alt="Linkedin" height="20" width="20"/></a>
+        <a href="https://twitter.com/quickgunmurugun" target="blank"><img src={Twitter} alt="Twitter" height="15" width="20" /></a>
         </figcaption>
         </figure>
 
@@ -83,8 +88,10 @@ export default class AboutPage extends Component {
         <p class="short-desc">Founder at LexStart.in, serves as our legal counsel.
          Previously Anisha was a Partner at K-Law and led multiple investment mandates 
          with Karthik as Acumen’s legal counsel.</p>
-        <Link><i>Linkedin</i></Link>
-        <Link><i>Twitter</i></Link>
+         <a href="https://www.linkedin.com/in/anishapatnaik" target="blank" style={{
+          padding : '0 1rem 0 0',
+        }}><img src={Linkedin} alt="Linkedin" height="20" width="20"/></a>
+        <a href="https://twitter.com/AnishaPatnaik" target="blank"><img src={Twitter} alt="Twitter" height="15" width="20" /></a>
         </figcaption>
         <div class="team-member-image-right">
         <img src={Anisha} alt="Team Memeber"/>
@@ -103,8 +110,10 @@ export default class AboutPage extends Component {
         Labs working on USAID-funded Deworming project. Ramesh has held various CEO,
         CFO and finance manager positions in his esteemed career including taking 
         an SME public and raising PE investment.</p>
-        <Link><i>Linkedin</i></Link>
-        <Link><i>Twitter</i></Link>
+        <a href="https://www.linkedin.com/in/s-r-ramesh-04ab5115" target="blank" style={{
+          padding : '0 1rem 0 0',
+        }}><img src={Linkedin} alt="Linkedin" height="20" width="20"/></a>
+        <a href="https://twitter.com/seepla" target="blank"><img src={Twitter} alt="Twitter" height="15" width="20" /></a>
         </figcaption>
         </figure>
 
@@ -118,8 +127,10 @@ export default class AboutPage extends Component {
          portfolio. He is passionate about creating impact in Agriculture. 
          He is a Certified CA and was previously with E&Y in their audit 
          practice.</p>
-        <Link><i>Linkedin</i></Link>
-        <Link><i>Twitter</i></Link>
+         <a href="https://www.linkedin.com/in/shashank-agrawal1990" target="blank" style={{
+          padding : '0 1rem 0 0',
+        }}><img src={Linkedin} alt="Linkedin" height="20" width="20"/></a>
+        <a href="https://twitter.com/shashank_awl" target="blank"><img src={Twitter} alt="Twitter" height="15" width="20" /></a>
         </figcaption>
         <div class="team-member-image-right" >
         <img src={Shashank} alt="Team Memeber"/>
@@ -170,9 +181,13 @@ export default class AboutPage extends Component {
                     CleanTech incubator, run by Sangam Ventures in 
                     partnership with the Niti Aayog's Atal Innovation 
                     Mission scheme.</p>
-                    <Link><i>Webiste</i></Link>
-                    <Link><i>Linkedin</i></Link>
-                    <Link><i>Twitter</i></Link>
+                    <a href="https://www.aic-sangam.org/" target="blank" style={{
+          padding : '0 1rem 0 0',
+        }}><img src={Website} alt="Linkedin" height="20" width="20"/></a>
+                    <a href="https://www.linkedin.com/showcase/sangam-aic/" target="blank" style={{
+          padding : '0 1rem 0 0',
+        }}><img src={Linkedin} alt="Linkedin" height="20" width="20"/></a>
+        <a href="https://twitter.com/AicSangam" target="blank"><img src={Twitter} alt="Twitter" height="15" width="20" /></a>
               </figcaption>
             </figure>
 
@@ -190,9 +205,13 @@ export default class AboutPage extends Component {
                     CleanTech incubator, run by Sangam Ventures in 
                     partnership with the Niti Aayog's Atal Innovation 
                     Mission scheme.</p>
-                    <Link><i>Webiste</i></Link>
-                    <Link><i>Linkedin</i></Link>
-                    <Link><i>Twitter</i></Link>
+                    <a href="https://www.aic-sangam.org/eiap2" target="blank" style={{
+          padding : '0 1rem 0 0',
+        }}><img src={Website} alt="Linkedin" height="20" width="20"/></a>
+                    <a href="https://www.linkedin.com/in/karthikchandrasekar" target="blank" style={{
+          padding : '0 1rem 0 0',
+        }}><img src={Linkedin} alt="Linkedin" height="20" width="20"/></a>
+        <a href="https://twitter.com/AicSangam" target="blank"><img src={Twitter} alt="Twitter" height="15" width="20" /></a>
               </figcaption>
             </figure>
 
@@ -210,9 +229,13 @@ export default class AboutPage extends Component {
                     CleanTech incubator, run by Sangam Ventures in 
                     partnership with the Niti Aayog's Atal Innovation 
                     Mission scheme.</p>
-                    <Link><i>Webiste</i></Link>
-                    <Link><i>Linkedin</i></Link>
-                    <Link><i>Twitter</i></Link>
+                    <a href="https://www.lexstart.com/homepage" target="blank" style={{
+          padding : '0 1rem 0 0',
+        }}><img src={Website} alt="Linkedin" height="20" width="20"/></a>
+                    <a href="https://www.linkedin.com/company/lexstart/" target="blank" style={{
+          padding : '0 1rem 0 0',
+        }}><img src={Linkedin} alt="Linkedin" height="20" width="20"/></a>
+        <a href="https://twitter.com/Lexstart_India" target="blank"><img src={Twitter} alt="Twitter" height="15" width="20" /></a>
               </figcaption>
             </figure>
             </div>
