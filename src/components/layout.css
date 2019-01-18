@@ -737,6 +737,10 @@ section{
   text-align : center;
 }
 
+.team-member-image-1{
+  display : none;
+}
+
 @media screen and (max-width: 1024px){
   .hero-image{
    
@@ -745,7 +749,14 @@ section{
     background-repeat: no-repeat;
    
 }
+.team-member-image-1{
+  display : block;
+  min-width: 100%;
+}
 
+.team-member-image-right{
+  display : none;
+}
 .reach-email{
   border-left : none;
   border-top : 1px solid #f1f1f1;

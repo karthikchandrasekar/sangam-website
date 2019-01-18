@@ -83,6 +83,9 @@ export default class AboutPage extends Component {
         <figcaption style={{
 
         }}>
+        <div class="team-member-image-1">
+        <img src={Anisha} alt="Team Memeber"/>
+        </div>
         <strong class="name">Anisha Patnaik</strong>
         <p class="designation"> Venture Partner </p>
         <p class="short-desc">Founder at LexStart.in, serves as our legal counsel.
@@ -118,7 +121,9 @@ export default class AboutPage extends Component {
         </figure>
 
          <figure className="team-member">
-        
+         <div class="team-member-image-1" >
+        <img src={Shashank} alt="Team Memeber"/>
+        </div>
         <figcaption>
         <strong class="name">Shashank Agrawal</strong>
         <p class="designation"> Senior Associate</p>
