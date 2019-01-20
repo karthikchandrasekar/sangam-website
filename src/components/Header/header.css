@@ -11,7 +11,7 @@
 }
 
 .main-header{
-     height : 65px;
+     /* height : 65px; */
      display : grid;
      grid-template-columns : inherit;
      grid-column: 1/4;
@@ -68,9 +68,9 @@
 
 .mob-nav{
     display: grid;
-    grid-column: 12/13;
-    justify-content: center;
+    grid-column: 7/13;
     align-items: center;
+    justify-content: right;
 }
 
 #menuToggle
@@ -94,7 +94,7 @@
   position: absolute;
   top: -7px;
   left: -5px;
-  
+  margin-left: 300px;
   cursor: pointer;
   
   opacity: 0; /* hide this */
@@ -113,7 +113,7 @@
   height: 3px;
   margin-bottom: 5px;
   position: relative;
-  
+  margin-left: 300px;
   background: #000000;
   border-radius: 3px;
   
@@ -210,8 +210,9 @@
 #menuToggle input:checked ~ ul{
 
     display: block;
-    position: absolute;
+    /* position: absolute; */
     list-style: none;
+    width : 300px;
 
 }
 
@@ -239,6 +240,8 @@
     }
     #menuToggle{
         display: block;
+        width : max-content;
+        
     }
     .company-branding > a > img {
     
@@ -252,6 +255,8 @@
     .main-header{
         padding: 1.9rem 0 3rem;
     }
+
+  
 
 
   }

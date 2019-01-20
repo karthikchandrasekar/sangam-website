@@ -33,7 +33,7 @@ const Header = () => (
   
            <nav className="mob-nav" role="navigation">
            <div id="menuToggle">
-   
+         
            <input type="checkbox" />
            <span></span>
            <span></span>
@@ -43,8 +43,8 @@ const Header = () => (
            <li><Link to= '/about-us' >{NavItem[0]}</Link></li>
            <li><Link to= '/our-investment' >{NavItem[1]}</Link></li>
            {/* <li><Link to= '/resources' >{NavItem[2]}</Link></li> */}
-           <li><Link to= '/linkedin' >{NavItem[3]}</Link></li>
-           <li><Link to= '/twitter' >{NavItem[4]}</Link></li>
+           <li><a href="https://www.linkedin.com/showcase/sangam-aic/" >{NavItem[3]}</a></li>
+           <li><a href="https://twitter.com/AicSangam" >{NavItem[4]}</a></li>
            </ul>
 
            </div>

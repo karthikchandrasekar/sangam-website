@@ -19,7 +19,7 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-      <Header />
+      
       <main
         style={{
         marginLeft: 'auto',
@@ -30,7 +30,7 @@ const Layout = ({ children }) => (
         minHeight: '100vh'
         }}>
         
-        
+        <Header />
          
           {children}
           
