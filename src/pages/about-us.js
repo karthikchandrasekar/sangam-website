@@ -34,7 +34,7 @@ export default class AboutPage extends Component {
              margin : '2rem 0 2rem 0',
            }}>
            <h3>Who we are?</h3>
-           <p>Sangam Ventures is a seed and early stage 
+           <p style={{fontSize : '16px',}}>Sangam Ventures is a seed and early stage 
             venture fund that invests to improve access 
             to sustainable energy and resource productivity 
             solutions for the underserved in India that 
@@ -55,7 +55,7 @@ export default class AboutPage extends Component {
         >
              <div style={{
              gridColumn : '2/3',
-             margin : '2rem 0 2rem 0',
+             margin : '2rem 0 0 0',
            }}>
         
         <h3>Our Team</h3>
@@ -80,9 +80,7 @@ export default class AboutPage extends Component {
 
          <figure className="team-member">
         
-        <figcaption style={{
-
-        }}>
+        <figcaption className="text-align">
         <div class="team-member-image-1">
         <img src={Anisha} alt="Team Memeber"/>
         </div>
@@ -124,7 +122,7 @@ export default class AboutPage extends Component {
          <div class="team-member-image-1" >
         <img src={Shashank} alt="Team Memeber"/>
         </div>
-        <figcaption>
+        <figcaption className="text-align">
         <strong class="name">Shashank Agrawal</strong>
         <p class="designation"> Senior Associate</p>
         <p class="short-desc">Shashank joined Sangam in 2015 and leads
@@ -210,10 +208,10 @@ export default class AboutPage extends Component {
                     <a href="https://www.aic-sangam.org/eiap2" target="blank" style={{
           padding : '0 1rem 0 0',
         }}><img src={Website} alt="Linkedin" height="20" width="20"/></a>
-                    <a href="https://www.linkedin.com/in/karthikchandrasekar" target="blank" style={{
+                    {/* <a href="https://www.linkedin.com/in/karthikchandrasekar" target="blank" style={{
           padding : '0 1rem 0 0',
         }}><img src={Linkedin} alt="Linkedin" height="20" width="20"/></a>
-        <a href="https://twitter.com/AicSangam" target="blank"><img src={Twitter} alt="Twitter" height="15" width="20" /></a>
+        <a href="https://twitter.com/AicSangam" target="blank"><img src={Twitter} alt="Twitter" height="15" width="20" /></a> */}
               </figcaption>
             </figure>
 

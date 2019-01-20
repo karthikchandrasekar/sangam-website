@@ -38,14 +38,14 @@ export default class InvestmentPage extends Component {
       display: 'grid',
       gridColumn: '1/4',
       gridTemplateColumns: 'inherit',
-      marginBottom : '2rem',
+      marginBottom : '0rem',
       paddingTop : '100px',
       }}
    >
 
    <div style={{
        gridColumn : '2/3',
-       margin : '2rem 0 2rem 0',
+       margin : '2rem 0 0 0',
      }}>
      <h3>How we do investment?</h3>
      <p>Sangam Ventures is a seed and early stage 
@@ -124,13 +124,7 @@ export default class InvestmentPage extends Component {
 
      <div style={{display : 'flex',gridColumn : '2/3',justifyContent: 'space-around',flexWrap : 'wrap'}}>
      
-     <div class="portfolio-1" style={
-         {
-             width : '350px',
-             marginBottom : '50px',
-             textAlign : 'center',
-         }
-     }>
+     <div class="portfolio-1" >
      <img src={InfiCold} />
      <p>Inficold Thermal battery provides 6hrs of 
          backup power for cooling at 83% lower 
@@ -145,13 +139,7 @@ export default class InvestmentPage extends Component {
         <a href=" https://twitter.com/Inficold_Inc" target="blank"><img src={Twitter} alt="Twitter" height="15" width="20" /></a>  
      </div>
 
-     <div class="portfolio-1"style={
-         {
-             width : '350px',
-             marginBottom : '50px',
-             textAlign : 'center',
-         }
-     }>
+     <div class="portfolio-1">
      <img src={Promethean} />
      <p>Energy efficiency is a 3x better investment for increasing overall energy availability that energy generation </p>
      <a href=" http://www.prometheanenergy.com/" target="blank" style={{
@@ -167,13 +155,7 @@ export default class InvestmentPage extends Component {
 
      <div style={{display : 'flex',gridColumn : '2/3',justifyContent: 'space-around', flexWrap : 'wrap'}}>
      
-     <div class="portfolio-1"style={
-         {
-             width : '350px',
-             marginBottom : '50px',
-             textAlign : 'center',
-         }
-     }>
+     <div class="portfolio-1">
      <img src={CarbonMaster} />
      <p>Carbon Masters has developed a circular business model for bottling & sale of biogas for kitchens, automobiles & agro-industries reducing harmful Methane & CO2 emissions</p>
      <a href="http://carbonlites.com/" target="blank" style={{
@@ -185,14 +167,7 @@ export default class InvestmentPage extends Component {
         <a href="https://twitter.com/carbonlites" target="blank"><img src={Twitter} alt="Twitter" height="15" width="20" /></a>
      </div>
 
-     <div class="portfolio-1"
-     style={
-         {
-             width : '350px',
-             marginBottom : '50px',
-             textAlign : 'center',
-         }
-     }>
+     <div class="portfolio-1">
      <img src={Solshare} />
      <p>SolShare is leading the Energiewende by developing services backbone for the future of utilities</p>
      <a href="https://www.me-solshare.com/" target="blank" style={{
@@ -208,13 +183,7 @@ export default class InvestmentPage extends Component {
 
      <div style={{display : 'flex',gridColumn : '2/3',justifyContent: 'space-around', flexWrap : 'wrap'}}>
      
-     <div class="portfolio-1" style={
-         {
-             width : '350px',
-             marginBottom : '50px',
-             textAlign : 'center',
-         }
-     }>
+     <div class="portfolio-1" >
      <img src={DelectricSystems} />
      <p>Delectrik Systems is developing very low cost, long duration sustainable energy storage system based on a mature Vanadium Redox Flow Battery chemistry</p>
      <a href="" target="blank" style={{
@@ -226,13 +195,7 @@ export default class InvestmentPage extends Component {
         <a href="https://twitter.com/DelectrikInfo" target="blank"><img src={Twitter} alt="Twitter" height="15" width="20" /></a>
      </div>
 
-     <div class="portfolio-1" style={
-         {
-             width : '350px',
-             marginBottom : '50px',
-             textAlign : 'center',
-         }
-     }>
+     <div class="portfolio-2">
      <img src={Khethworks} />
      <p>Khethwork’s highly efficient solar pump design is optimised to give farmers the flow required for surface irrigation with less than 300 watts of power and payback in 2 years</p>
      <a href="http://khethworks.com/" target="blank" style={{
@@ -243,11 +206,7 @@ export default class InvestmentPage extends Component {
         }}><img src={Linkedin} alt="Linkedin" height="20" width="20"/></a>
         <a href="https://twitter.com/khethworks" target="blank"><img src={Twitter} alt="Twitter" height="15" width="20" /></a>  
      </div>
-
      </div>
-
-     
-   
   </section>
 
 

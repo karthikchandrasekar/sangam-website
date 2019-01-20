@@ -87,7 +87,7 @@ export default class IndexPage extends Component {
         position : 'relative',
         top : '40%',
         fontSize : '16px',
-      }}>Reach out to us @</p>
+      }}> <strong>Reach out to us @</strong></p>
       <p  style={{
         position : 'relative',
         top : '40%',

@@ -1,9 +1,9 @@
 .company-branding{
         grid-column: 1/4;
-        justify-content : flex-start;
+         justify-content : flex-start;
         display : flex;
         align-items: center;
-        display: none;
+        
 }
 
 .company-branding > a > img {
@@ -11,11 +11,10 @@
 }
 
 .main-header{
-     /* height : 65px; */
      display : grid;
      grid-template-columns : inherit;
      grid-column: 1/4;
-     padding: 1.9rem 0 3.9rem;
+     padding: 1rem 0 .5rem;
      position: fixed;
      top: 0;
      z-index: 150;
@@ -79,7 +78,7 @@
   position: relative;
   /* top: 50px;
   left: 50px; */
-  
+  margin-top : 15px;
   z-index: 1;
   
   -webkit-user-select: none;
@@ -219,11 +218,21 @@
 #menuToggle input:checked ~ ul > li 
 {
     display: block;
-    padding: 14px 16px;
-    color: black;
-    text-decoration: none;
-
+    padding: 20px 16px;
+    border-bottom: 1px solid #efefef;
+   
 }
+#menuToggle input:checked ~ ul > li:last-child{
+    border-bottom: none;
+}
+
+#menuToggle input:checked ~ ul > li > a{
+   
+color: black;
+text-decoration: none;
+}
+
+
 
 
 
@@ -249,13 +258,21 @@
     }
 
     .hero-landing {
-       padding-top: 80px;
+       padding-top: 80px !important;
     }
 
     .main-header{
-        padding: 1.9rem 0 3rem;
+        padding: 1.9rem 0 1rem;
+        height: none;
     }
-
+    .company-branding{
+        grid-column: 1/5;
+    }
+    .company-branding{
+       
+        align-items: flex-start;
+        
+}
   
 
 
