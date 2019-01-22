@@ -23,6 +23,7 @@ import Khethworks from '../images/logo-khethworks.jpg'
 import Linkedin from '../images/linkedin.png'
 import Twitter from '../images/twitter.png'
 import Website from '../images/website.png'
+import MobSdg from '../images/mob-sdg.svg'
 
 
 
@@ -95,7 +96,7 @@ export default class InvestmentPage extends Component {
   <h3>We are focussing on 7 SDG</h3>
   </div>
 
-    <div style={{display : 'flex',gridColumn : '2/3',justifyContent: 'space-around', flexWrap : 'wrap',}}>
+    <div className="sdg">
     <img src={SDG1} height="100px" width="100px"/>
     <img src={SDG2} height="100px" width="100px"/>
     <img src={SDG3} height="100px" width="100px"/>
@@ -104,6 +105,9 @@ export default class InvestmentPage extends Component {
     <img src={SDG6} height="100px" width="100px"/>
     <img src={SDG7} height="100px" width="100px"/>
     <img src={SDG8} height="100px" width="100px"/>
+    </div>
+    <div className="mob-sdg">
+    <img src={MobSdg} /> 
     </div>
   </section>
 

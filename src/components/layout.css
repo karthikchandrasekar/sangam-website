@@ -780,6 +780,17 @@ section{
   
 }
 
+.sdg{
+  display : flex;
+  grid-column : 2/3;
+  justify-content: space-around;
+  flex-wrap : wrap;
+}
+
+.mob-sdg{
+  display: none;
+}
+
 @media screen and (max-width: 1024px){
   .hero-image{
    
@@ -838,3 +849,15 @@ section{
 }
 }
 
+@media screen and (max-width: 480px){
+
+  .mob-sdg{
+    display: flex;
+    display: block;
+    grid-column: 2/3
+  }
+  .sdg{
+    display: none;
+  }
+
+}

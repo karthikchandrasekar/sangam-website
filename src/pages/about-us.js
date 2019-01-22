@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import SEO from '../components/seo'
 import Layout from '../components/layout' 
-import Group from '../images/group.jpg'
+import Group from '../images/group-1.jpg'
 import KC from '../images/KC.jpg'
 import Anisha from '../images/Anisha.jpg'
 import Ramesh from '../images/Ramesh.jpg'
