@@ -789,8 +789,18 @@ section{
   
 }
 
+.portfolio-2 >img {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.portfolio-1 > img {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
 .sdg{
-  display : flex;
+ 
   grid-column : 1/13;
   
 }
