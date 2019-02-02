@@ -3,23 +3,16 @@ import Layout from '../components/layout'
 import { Link } from 'gatsby'
 import SEO from '../components/seo'
 import Container from '../components/Container/container'
-import Thesis1 from '../images/thesis-1.png'
-import Thesis2 from '../images/thesis-2.png'
-import Thesis3 from '../images/thesis-3.png'
-import SDG1 from '../images/1.png'
-import SDG2 from '../images/2.png'
-import SDG3 from '../images/3.png'
-import SDG4 from '../images/4.png'
-import SDG5 from '../images/5.png'
-import SDG6 from '../images/6.png'
-import SDG7 from '../images/7.png'
-import SDG8 from '../images/8.png'
-import InfiCold from '../images/logo-inficold.jpg'
-import Promethean from '../images/logo-promethean.jpg'
-import CarbonMaster from '../images/logo-carbon-masters.jpg'
-import Solshare from '../images/logo-solshare.jpg'
-import DelectricSystems from '../images/logo-delectric-systems.jpg'
-import Khethworks from '../images/logo-khethworks.jpg'
+import Thesis1 from '../images/thesis-4.svg'
+import Thesis2 from '../images/thesis-5.svg'
+import Thesis3 from '../images/thesis-6.svg'
+import SDG from '../images/SDG.jpg'
+import InfiCold from '../images/logo-inficold.svg'
+import Promethean from '../images/logo-promethean.svg'
+import CarbonMaster from '../images/logo-carbon-masters.svg'
+import Solshare from '../images/logo-solshare.svg'
+import DelectricSystems from '../images/logo-delectric-systems.svg'
+import Khethworks from '../images/logo-khethworks.svg'
 import Linkedin from '../images/linkedin.png'
 import Twitter from '../images/twitter.png'
 import Website from '../images/website.png'
@@ -68,22 +61,24 @@ export default class InvestmentPage extends Component {
   </div>
 
    <Container>
-    
-    <div className="thesistype-1 thesistype-mob">
+    <div class= "thesis-type">
+
+    <div className="thesistype-1 thesistype-mob thesistype">
         <p><strong>Energy Transition</strong></p>
         <img src={Thesis1} />
     </div>
 
-    <div class="thesistype-2 thesistype-mob">
+    <div class="thesistype-2 thesistype-mob thesistype">
         <p><strong>Circular Economy</strong></p>
         <img src={Thesis2} />
     </div>
 
-    <div class="thesistype-3 thesistype-mob">
+    <div class="thesistype-3 thesistype-mob thesistype">
         <p><strong>Competent SMEs</strong></p>
         <img src={Thesis3} />
     </div>
 
+    </div>
    </Container>
   </section>
 
@@ -97,14 +92,7 @@ export default class InvestmentPage extends Component {
   </div>
 
     <div className="sdg">
-    <img src={SDG1} height="100px" width="100px"/>
-    <img src={SDG2} height="100px" width="100px"/>
-    <img src={SDG3} height="100px" width="100px"/>
-    <img src={SDG4} height="100px" width="100px"/>
-    <img src={SDG5} height="100px" width="100px"/>
-    <img src={SDG6} height="100px" width="100px"/>
-    <img src={SDG7} height="100px" width="100px"/>
-    <img src={SDG8} height="100px" width="100px"/>
+    <img src={SDG} />
     </div>
     <div className="mob-sdg">
     <img src={MobSdg} /> 
