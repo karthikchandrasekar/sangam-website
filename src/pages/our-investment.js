@@ -91,9 +91,13 @@ export default class InvestmentPage extends Component {
   <h3>We are focussing on 7 SDG</h3>
   </div>
 
+    
+    <Container>
     <div className="sdg">
     <img src={SDG} />
     </div>
+    </Container>
+    
     <div className="mob-sdg">
     <img src={MobSdg} /> 
     </div>
