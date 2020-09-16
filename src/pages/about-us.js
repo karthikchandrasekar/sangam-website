@@ -124,12 +124,13 @@ export default class AboutPage extends Component {
         </div>
         <figcaption className="text-align">
         <strong class="name">Shashank Agrawal</strong>
-        <p class="designation"> Senior Associate</p>
-        <p class="short-desc">Shashank joined Sangam in 2015 and leads
-         financial diligence & financial management for Sangam & its 
-         portfolio. He is passionate about creating impact in Agriculture. 
-         He is a Certified CA and was previously with E&Y in their audit 
-         practice.</p>
+        <p class="designation"> Principal</p>
+        <p class="short-desc">Shashank leads cleantech investments as a Principal, besides 
+          bringing his passion to coaching cleantech entrepreneurs through his hands-on work 
+          with the portfolio companies and mentoring other early stage startup founders. 
+          Prior to Sangam, Shashank spent a year at Claro Energy, driving adoption of solar PV 
+          irrigation pumps across India. Early in his career, he led audits at E&Y and is a 
+          Chartered Accountant by training with a B.Com from University of Delhi.</p>
          <a href="https://www.linkedin.com/in/shashank-agrawal1990" target="blank" style={{
           padding : '0 1rem 0 0',
         }}><img src={Linkedin} alt="Linkedin" height="20" width="20"/></a>
